@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(247, 246, 248);
+}
+
+h3 {
+    color: chocolate;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(254, 12, 12);
+}
+
+.detal {
+    margin-left: 8%;
+    margin-right: 18%;
+}
+
+.about-sec {
+    margin-left: 8%;
+    margin-right: 18%;
+}
+
+.detal h1 {
+    font-size: 50px;
+    color: #df2e2e;
+    margin-bottom: 130px;
+}
+
+.about-sec h2 {
+    font-size: 50px;
+    color: #df2e2e;
+    margin-bottom: 80px;
+}
+
+span {
+    color: #bad244;
+}
+
+.detal p {
+    color: #4030f4;
+    line-height: 22px;
+}
+
+.about-sec p {
+    color: #4030f4;
+    line-height: 22px;
+}
+
+.detal a {
+    background: #665d5d;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 50px 80px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 22px rgba(0, 0, 0, 3);
+}
+
+.images {
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 165px;
+}
+
+.images img {
+    height: 90%;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: 8px 8px 44px rgba(0, 0, 0, 3);
+    transform: translateX(-30%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .girl {
+    right: 30%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.card {
+    width: calc(28.33% - 10px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 3);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-container .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ccc;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 16px;
+}
+
+.content {
+    background-color: #e4cece;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(207, 15, 15, o.1);
+    padding: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.signup {
+    font-size: 25px;
+}
+
+a {
+    font-size: 25px;
+    color: #000000;
+}
+
+input {
+    font-size: 30px;
+}
+
+label {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+button {
+    font-size: 40px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: -40px;
+}
